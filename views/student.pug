@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    .student-info
+        img(src=studentPhoto, alt='Student Photo')
+        .details
+        h1 Student Information
+        p Name: #{studentName}
+        p Surname: #{studentSurname}
+        p Age: #{studentAge}
+        a(href=link) Studies in: #{place}
+    a.back(href='/') Go back to Home

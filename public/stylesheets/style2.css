@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color:  #333;
+}
+
+.student-info {
+    text-align: center;
+}
+
+img {
+    height: 320px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.5);
+}
+
+p {
+    color: #666;
+}
+a.back{
+    font-size: 22px;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #FF69B4;
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: #FFC0CB;
+}
